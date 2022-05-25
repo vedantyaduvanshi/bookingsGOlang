@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.active {
+  background-color: gray;
+  color: white;
+}
+li a:hover {
+  background-color: rgb(0, 26, 255);
+  color: white;
+}
+
+
+
+
+
+#roomimage {
+  height: 1000px;
+  width: 1000px;
+  margin: 20px 430px;
+}
+
+
+#para{
+    text-align: center;
+}
+
+#para button{
+   height: 30px;
+}
+
+
+footer ul li{
+    padding: 20px 275px;
+}
